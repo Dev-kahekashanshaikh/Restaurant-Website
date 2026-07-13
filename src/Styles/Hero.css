@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.hero{
+    position:relative;
+    width:100%;
+    height:100vh;
+    /* overflow:hidden; */
+     /* border: 2px solid yellow; */
+}
+
+.slider{
+    width:100%;
+    height:100%;
+   
+    display:flex;
+    animation:slideShow 15s infinite;
+}
+
+.slide{
+    width:100%;
+    height:100%;
+    flex-shrink:0;
+}
+
+.slide img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.overlay{
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.45);
+}
+
+.hero-content{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+    color:white;
+    width:80%;
+    max-width:700px;
+    z-index:5;
+}
+
+.hero-content h1{
+    font-size:2rem;
+    margin-bottom:20px;
+    letter-spacing:2px;
+    color: white;
+}
+
+.hero-content p{
+    font-size:1rem;
+    line-height:1.8;
+    margin-bottom:35px;
+}
+
+.hero-content button{
+    padding:15px 35px;
+    border:none;
+    /* background:#ff6b00; */
+    background-color: #1d6156;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    border-radius:5px;
+    transition:.4s;
+}
+
+.hero-content button:hover{
+    background:#ff9f1c;;
+}
+
+@keyframes slideShow{
+
+    0%{
+        transform:translateX(0);
+    }
+
+    30%{
+        transform:translateX(0);
+    }
+
+    33%{
+        transform:translateX(-100%);
+    }
+
+    63%{
+        transform:translateX(-100%);
+    }
+
+    66%{
+        transform:translateX(-200%);
+    }
+
+    96%{
+        transform:translateX(-200%);
+    }
+
+    100%{
+        transform:translateX(0);
+    }
+
+}
+
+/* Tablet */
+
+@media(max-width:992px){
+
+.hero-content h1{
+    font-size:3rem;
+}
+
+.hero-content p{
+    font-size:1rem;
+}
+
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.hero{
+    height:80vh;
+}
+
+.hero-content{
+    width:90%;
+}
+
+.hero-content h1{
+    font-size:2.2rem;
+}
+
+.hero-content p{
+    font-size:16px;
+    line-height:1.6;
+}
+
+.hero-content button{
+    padding:12px 28px;
+    font-size:16px;
+}
+
+}
+
+/* Small Mobile */
+
+@media(max-width:480px){
+
+.hero{
+    height:70vh;
+}
+
+.hero-content h1{
+    font-size:1.8rem;
+}
+
+.hero-content p{
+    font-size:14px;
+}
+
+.hero-content button{
+    padding:10px 22px;
+    font-size:15px;
+}
+
+}
