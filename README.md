@@ -1,16 +1,134 @@
-# React + Vite
+# 🍽️ Foodie's Palace - Restaurant Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and visually appealing restaurant landing page built with **React.js**. This project showcases a premium restaurant website with an elegant design, responsive layouts, smooth user experience, and reusable React components.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📸 Preview
 
-## React Compiler
+> Add screenshots or a live demo GIF here.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![Home Page](./src/assets/preview.png)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Live Demo
+
+🔗 https://restaurant-website-six-alpha-60.vercel.app/
+
+---
+
+## ✨ Features
+
+- 🍔 Responsive Navigation Bar
+- 🏠 Hero Section with Background Image Slider
+- 📖 About Restaurant Section
+- 🍕 Breakfast, Lunch & Dinner Menu
+- 👨‍🍳 Master Chef Showcase Carousel (Swiper.js)
+- 📱 Fully Responsive Design
+- 🎨 Modern UI with Smooth Hover Effects
+- 📞 Contact Section
+- 📍 Footer with Social Media Links
+- ⚡ Fast React Components
+- ♻️ Reusable Component Structure
+
+---
+
+## 🛠️ Tech Stack
+
+- React.js
+- JavaScript (ES6+)
+- CSS3
+- Swiper.js
+- React Icons
+- Font Awesome
+
+---
+
+## 📂 Folder Structure
+
+```text
+src
+│
+├── assets/
+│   ├── images
+│   └── icons
+│
+├── Components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── About.jsx
+│   ├── Menu.jsx
+│   ├── ChefCarousel.jsx
+│   ├── Contact.jsx
+│   └── Footer.jsx
+│
+├── Styles/
+│   ├── Navbar.css
+│   ├── Hero.css
+│   ├── About.css
+│   ├── Menu.css
+│   ├── ChefCarousel.css
+│   ├── Contact.css
+│   └── Footer.css
+│
+├── Pages/
+│   └── LandingPage.jsx
+│
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+
+## 🎯 Responsive Design
+
+The website is optimized for:
+
+- 💻 Desktop
+- 💻 Laptop
+- 📱 Tablet
+- 📱 Mobile Devices
+
+---
+
+## 📷 Website Sections
+
+- Responsive Navbar
+- Hero Banner
+- About Us
+- Restaurant Menu
+- Master Chefs
+- Contact
+- Footer
+
+---
+
+## 💡 Future Improvements
+
+- Online Table Reservation
+- Food Ordering System
+- Dark Mode
+- Backend Integration
+- Authentication
+- Admin Dashboard
+- Customer Testimonials
+- Food Gallery
+- Google Maps Integration
+
+---
+
+---
+
+## 👨‍💻 Author
+
+**Kahekashan Shaikh**
+
+GitHub: 
+
+LinkedIn: 
+
+---
+
+⭐ If you like this project, consider giving it a star on GitHub!
