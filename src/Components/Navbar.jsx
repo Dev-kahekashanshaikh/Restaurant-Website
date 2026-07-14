@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../Styles/Header.css";
 import { FaBars, FaTimes } from "react-icons/fa";
-import logo from  "../assets/BrownGoldIllustrativeSimpleLogo.png"
+import logo from  "../assets/RestaurantLogo2.jpeg"
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -9,10 +9,11 @@ const Navbar = () => {
   return (
     <header className="header-section">
       <div className="logo">
-        <img
-        //   src={logo}
+        {/* <img
+          src={logo}
           alt="Restaurant Logo"
-        />
+        /> */}
+        <h2 style={{fontFamily:"sans-serif"}}>FOODIES PALACE</h2>
       </div>
 
       <nav className={menuOpen ? "nav-links active" : "nav-links"}>

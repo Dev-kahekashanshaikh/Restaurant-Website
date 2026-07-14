@@ -45,12 +45,15 @@ body{
 /* Logo */
 
 .logo{
-    width:10%;
+    width:30%;
     height:100% ;
     cursor:pointer;
     /* border: 2px solid white; */
      object-fit: contain;
      /* overflow: hidden; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
 }
 .logo img{
     width: 100%;
@@ -128,7 +131,10 @@ body{
 =========================== */
 
 @media(max-width:768px){
-
+.logo{
+font-size: 15px;
+width: 50%;
+}
 .menu-icon{
     display:block;
     z-index:1001;
@@ -170,7 +176,10 @@ body{
     height:70px;
     padding:0 20px;
 }
-
+.logo{
+font-size: 10px;
+width: 50%;
+}
 .logo img{
     width:110px;
 }

@@ -1,7 +1,16 @@
 import React from "react";
 import "../Styles/Menu.css";
+import pancakeimg from "../assets/pancakeimg.avif";
+import FrenchToast from "../assets/French-Toast.avif";
+import VegSandwich from "../assets/Veg-Sandwich.avif";
+import Omelette from "../assets/Omelette.avif";
+import FruitBowl from "../assets/FruitBowl.avif";
+import Coffee from "../assets/Coffee.avif";
 
-let pancakeimg ="https://media.istockphoto.com/id/1307978601/vector/pancakes-with-maple-syrup.jpg?s=2048x2048&w=is&k=20&c=8oicsJcE4mfXyVu6fnR9E0ZR4RlxuxoK6NmX-gQC5xs="
+
+
+
+
 const Menu = () => {
     const menuData = [
   {
@@ -10,38 +19,38 @@ const Menu = () => {
       {
         name: "Pancakes",
         desc: "Fresh cream, maple syrup",
-        price: "$120",
+        price: "₹120",
         image: pancakeimg,
       },
       {
         name: "Veg Sandwich",
         desc: "Cheese, vegetables",
-        price: "$90",
-        image: "/images/b2.jpg",
+        price: "₹90",
+        image: VegSandwich,
       },
       {
         name: "French Toast",
         desc: "Honey, butter",
-        price: "$110",
-        image: "/images/b3.jpg",
+        price: "₹110",
+        image: FrenchToast,
       },
       {
         name: "Omelette",
         desc: "Egg, cheese",
-        price: "$95",
-        image: "/images/b4.jpg",
+        price: "₹95",
+        image: Omelette,
       },
       {
         name: "Fruit Bowl",
         desc: "Seasonal fruits",
-        price: "$130",
-        image: "/images/b5.jpg",
+        price: "₹130",
+        image: FruitBowl,
       },
       {
         name: "Coffee",
         desc: "Fresh brewed",
-        price: "$60",
-        image: "/images/b6.jpg",
+        price: "₹60",
+        image: Coffee,
       },
     ],
   },
@@ -52,37 +61,37 @@ const Menu = () => {
       {
         name: "Chicken Biryani",
         desc: "Rice, chicken",
-        price: "$220",
+        price: "₹220",
         image: "/images/l1.jpg",
       },
       {
         name: "Butter Naan",
         desc: "Soft bread",
-        price: "$40",
+        price: "₹40",
         image: "/images/l2.jpg",
       },
       {
         name: "Paneer Butter Masala",
         desc: "Paneer, gravy",
-        price: "$180",
+        price: "{&rupee;}180",
         image: "/images/l3.jpg",
       },
       {
         name: "Fried Rice",
         desc: "Veg special",
-        price: "$150",
+        price: "₹150",
         image: "/images/l4.jpg",
       },
       {
         name: "Burger",
         desc: "Chicken burger",
-        price: "$160",
+        price: "₹160",
         image: "/images/l5.jpg",
       },
       {
         name: "Pasta",
         desc: "Creamy pasta",
-        price: "$170",
+        price: "₹170",
         image: "/images/l6.jpg",
       },
     ],
@@ -94,37 +103,37 @@ const Menu = () => {
       {
         name: "Steak",
         desc: "Premium beef",
-        price: "$350",
+        price: "₹350",
         image: "/images/d1.jpg",
       },
       {
         name: "Grilled Chicken",
         desc: "Herbs & spices",
-        price: "$280",
+        price: "₹280",
         image: "/images/d2.jpg",
       },
       {
         name: "Sea Food",
         desc: "Fresh catch",
-        price: "$390",
+        price: "₹390",
         image: "/images/d3.jpg",
       },
       {
         name: "Pizza",
         desc: "Cheese loaded",
-        price: "$240",
+        price: "₹240",
         image: "/images/d4.jpg",
       },
       {
         name: "Lasagna",
         desc: "Italian style",
-        price: "$270",
+        price: "₹270",
         image: "/images/d5.jpg",
       },
       {
         name: "Salad",
         desc: "Fresh vegetables",
-        price: "$140",
+        price: "₹140",
         image: "/images/d6.jpg",
       },
     ],
