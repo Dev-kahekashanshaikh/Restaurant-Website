@@ -129,7 +129,7 @@ const Menu = () => {
         name: "Grilled Chicken",
         desc: "Herbs & spices",
         price: "₹280",
-        image: {GrilledChicken},
+        image: GrilledChicken,
       },
       {
         name: "Sea Food",
