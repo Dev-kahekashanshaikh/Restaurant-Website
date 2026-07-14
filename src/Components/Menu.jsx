@@ -8,7 +8,7 @@ import VegSandwich from "../assets/Veg-Sandwich.avif";
 import Omelette from "../assets/Omelette.avif";
 import FruitBowl from "../assets/FruitBowl.avif";
 import Coffee from "../assets/Coffee.avif";
-import ChickenBiryani from "../assets/Chicken-Biryani.avif"
+
 
 
 // Lunch Menu item Images 
@@ -20,7 +20,7 @@ import Burger from "../assets/Burger.avif";
 import Pasta from "../assets/Pasta.avif";
 
 // Dinner Menu Images 
-import Steak from "../assets/Steak.avif"
+import BeefSteak from "../assets/Beef-Steak.avif"
 import GrilledChicken from "../assets/Grilled-Chicken.avif"
 import SeaFood from "../assets/Sea-Food.avif"
 import Pizza from "../assets/Pizza.avif"
@@ -123,7 +123,7 @@ const Menu = () => {
         name: "Steak",
         desc: "Premium beef",
         price: "₹350",
-        image: Steak,
+        image: BeefSteak,
       },
       {
         name: "Grilled Chicken",
