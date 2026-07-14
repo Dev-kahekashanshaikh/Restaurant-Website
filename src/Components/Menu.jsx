@@ -73,7 +73,7 @@ const Menu = () => {
       {
         name: "Paneer Butter Masala",
         desc: "Paneer, gravy",
-        price: "{&rupee;}180",
+        price: "₹180",
         image: "/images/l3.jpg",
       },
       {
