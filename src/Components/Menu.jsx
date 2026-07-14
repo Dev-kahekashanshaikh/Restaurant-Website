@@ -1,12 +1,31 @@
 import React from "react";
 import "../Styles/Menu.css";
+
+// Break fast Menu item Images 
 import pancakeimg from "../assets/pancakeimg.avif";
 import FrenchToast from "../assets/French-Toast.avif";
 import VegSandwich from "../assets/Veg-Sandwich.avif";
 import Omelette from "../assets/Omelette.avif";
 import FruitBowl from "../assets/FruitBowl.avif";
 import Coffee from "../assets/Coffee.avif";
+import ChickenBiryani from "../assets/Chicken-Biryani.avif"
 
+
+// Lunch Menu item Images 
+import ChickenBiryani from "../assets/Chicken-Biryani.avif"
+import ButterNaan from "../assets/Butter-Naan.avif"
+import PaneerButterMasala from "../assets/Paneer-Butter-Masala.avif"
+import FriedRice from "../assets/Fried-Rice.avif"
+import Burger from "../assets/Burger.avif";
+import Pasta from "../assets/Pasta.avif";
+
+// Dinner Menu Images 
+import Steak from "../assets/Steak.avif"
+import GrilledChicken from "../assets/Grilled-Chicken.avif"
+import SeaFood from "../assets/Sea-Food.avif"
+import Pizza from "../assets/Pizza.avif"
+import Lasagna from "../assets/Lasagna.avif";
+import Salad from "../assets/Salad.avif";
 
 
 
@@ -62,37 +81,37 @@ const Menu = () => {
         name: "Chicken Biryani",
         desc: "Rice, chicken",
         price: "₹220",
-        image: "/images/l1.jpg",
+        image: ChickenBiryani,
       },
       {
         name: "Butter Naan",
         desc: "Soft bread",
         price: "₹40",
-        image: "/images/l2.jpg",
+        image: ButterNaan,
       },
       {
         name: "Paneer Butter Masala",
         desc: "Paneer, gravy",
         price: "₹180",
-        image: "/images/l3.jpg",
+        image: PaneerButterMasala,
       },
       {
         name: "Fried Rice",
         desc: "Veg special",
         price: "₹150",
-        image: "/images/l4.jpg",
+        image: FriedRice,
       },
       {
         name: "Burger",
         desc: "Chicken burger",
         price: "₹160",
-        image: "/images/l5.jpg",
+        image: Burger,
       },
       {
         name: "Pasta",
         desc: "Creamy pasta",
         price: "₹170",
-        image: "/images/l6.jpg",
+        image: Pasta,
       },
     ],
   },
@@ -104,37 +123,37 @@ const Menu = () => {
         name: "Steak",
         desc: "Premium beef",
         price: "₹350",
-        image: "/images/d1.jpg",
+        image: Steak,
       },
       {
         name: "Grilled Chicken",
         desc: "Herbs & spices",
         price: "₹280",
-        image: "/images/d2.jpg",
+        image: {GrilledChicken},
       },
       {
         name: "Sea Food",
         desc: "Fresh catch",
         price: "₹390",
-        image: "/images/d3.jpg",
+        image: SeaFood,
       },
       {
         name: "Pizza",
         desc: "Cheese loaded",
         price: "₹240",
-        image: "/images/d4.jpg",
+        image: Pizza,
       },
       {
         name: "Lasagna",
         desc: "Italian style",
         price: "₹270",
-        image: "/images/d5.jpg",
+        image: Lasagna,
       },
       {
         name: "Salad",
         desc: "Fresh vegetables",
         price: "₹140",
-        image: "/images/d6.jpg",
+        image:Salad,
       },
     ],
   },
